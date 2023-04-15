@@ -1,0 +1,33 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Consumo de api rest mongo atlas",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "back"
+  ],
+  "author": "Sergio Ayala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioAyalaHernandez/rentCarg1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergioAyalaHernandez/rentCarg1/issues"
+  },
+  "homepage": "https://github.com/SergioAyalaHernandez/rentCarg1#readme"
+}
