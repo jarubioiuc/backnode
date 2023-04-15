@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(cors());
 
 
-mongoose.connect("mongosh "mongodb://mongo:fGs9369CnqmxOFQx2Kj4@containers-us-west-171.railway.app:7800"",{
+mongoose.connect("mongodb://mongo:fGs9369CnqmxOFQx2Kj4@containers-us-west-171.railway.app:7800",{
     //acá va los datos de conexión de la base de datos
     //se usa mongoose para la conexión y el crud
     //se instala npm install mongoose
